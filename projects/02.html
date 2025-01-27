@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ian Appleby | OList Case</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<a href="../index.html" class="logo">Ian Appleby</a>
+				</header>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul class="links">
+						<li class="active"><a href="../index.html">Analytics Projects</a></li>
+						<!--<li><a href="../papers.html">Papers and Writing Samples</a></li>-->
+						<li><a href="../about-me.html">About Me</a></li>
+						<!--<li><a href="../elements.html">Elements</a></li>-->
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/ianappleby/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<!--<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>-->
+						<li><a href="https://github.com/iappleby25" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>OList Case</h1>
+									<p>This is an excerpt from a report on Olist, a Brazilian e-commerce platform. This project was completed in my Storytelling with Data course at Babson College in Fall 2024. The project was focused put the onus on students to create their own business questions with the <a href="https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce">dataset given</a>. In a group of three, we were all responsible for a visual with a geospatial component and a summary with our insights to create a report as a group. My visual and summary are below. </p>
+								</header>
+								<div class="box">
+									<div class='tableauPlaceholder' id='viz1737496672939' style='position: relative'><noscript><a href='#'><img alt='Impact of Delivery Times on the Average Payment Value Across States of Brazil ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;OlistCase_17318868608190&#47;OListCase&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='OlistCase_17318868608190&#47;OListCase' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ol&#47;OlistCase_17318868608190&#47;OListCase&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1737496672939');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+									<br> <br/><p><b>What is the relationship between the average time to deliver and the average payment value in each state? How do these trends vary regionally?</b> <br>
+									<br> <br/>This visual presents the relationship between the average time to deliver in days and the average payment in U.S. Dollars in each state. To best communicate prices with an American audience, we felt it was best to present price data in USD, which required a currency conversion between the Brazilian Real and USD. From 2016-2018, the average exchange rate from BRL to USD was .2924, so each payment has been scaled by this amount to get an estimated average payment in USD. 
+									<br> <br/>When looking broadly at the data, there seems to be a strong positive correlation between the amount of time it takes to deliver a product and the average price people paid per order. Sao Paulo shows this relationship well. The state owns both the lowest average delivery time as previously discussed (8.7 days) and the lowest average payment per order ($40.21). Meanwhile, more remote places see higher average payments and delivery times. As an example, Amapá, a state in the North region, had the second highest delivery time at 27.18 days and the third highest average payment value at $67.93. There is a little variation across states, but this is the overall trend.
+									<br> <br/>Regionally, there are stark differences. States in the Southeast and South regions, which include states such as Sao Paulo and Rio de Janeiro, see much lower delivery times and payments on average than the rest of Brazil. These coastal states contain many of the larger cities in Brazil, which is likely the cause of this.  In contrast, the North and Central-West regions, which are dominated by the Amazon Rainforest, have much higher averages. There are variety of possible explanations for these discrepancies. The existence of the Amazon Rainforest makes delivery into states which are dominated by it difficult, raising the time to deliver. The increase in payment from these regions may be caused in part by similar factors as the delivery time, as the difficulty may result in higher shipping costs, or because of the higher delivery time, as people may only use online stores for bigger purchases. Interestingly, the state of Amazonas goes against the trend in the North region as it has a lower average payment value than the states around it. This may be because the Amazon River running through the state make it easier to ship products into the state, but this is speculation and may require further analysis.  
+									<br> <br/>The Northeast region seems to be somewhat of a wildcard in terms of average payment amount. These states all seem to have their average time to deliver around 20 days but have wildly different average payment amounts. Pernambuco’s average time to deliver is 18.4 days with an average payment amount of $54.97. Meanwhile, bordering Paraiba has a similar average time to deliver of 20.38 but the highest average payment amount across Brazil at $72.61. This difference in average payment amounts warrants further investigation. Possible explanations include differences in consumer tastes, as customers in Paraiba may prefer to buy more expensive items online, or external factors like crime which may make it more difficult to deliver within the state.
+									<br> <br/>In conclusion, states with higher delivery times tend to have higher average payments. Regions tend to be like each other in terms of both metrics, but there are a few outliers which deserve to be studied further to investigate what makes these states different from each other.  Possible explanations for differences in payment and delivery time include shipping differences and difficulty, differences in customer preferences, or external factors such as crime rates which may have to be studied. Further experimentation is required to find optimal strategies within each state as well as possible causal relationships with these factors for either of our target variables.
+									</p>
+								</div>
+								<p>Click below if you are interested in viewing the packaged workbook to see more of my process.</p>
+								<a href="../files/OlistCase.twbx" download class="button icon solid fa-download">Workbook Download</a>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section class="alt">
+								<h3>Location</h3>
+								<p>Greater Boston Area</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p><a href="tel:+17817385641">(781) 738-5641</a></p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:ianappleby25@gmail.com">ianappleby25@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/ianappleby/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<!--<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+									<li><a href="https://github.com/iappleby25" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
